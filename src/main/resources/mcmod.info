@@ -1,0 +1,16 @@
+[
+{
+  "modid": "atm2",
+  "name": "Test mod 2",
+  "description": "DESCRIPTION",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["artstood"],
+  "credits": "internet!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
