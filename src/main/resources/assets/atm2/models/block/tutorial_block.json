@@ -1,0 +1,6 @@
+{
+	"parent":"block/cube_all",
+	"textures":{
+		"all":"atm2:blocks/tutorial_block"
+	}
+}
