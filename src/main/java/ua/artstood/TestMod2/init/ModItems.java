@@ -17,20 +17,23 @@ import ua.artstood.TestMod2.items.ItemBasic;
 public class ModItems {
 	
 	static Item tutorialItem;
-	
+	static Item tutorialBrick;
 	
 	public static void init() {
 			tutorialItem = new ItemBasic("tutorial_item").setCreativeTab(CreativeTabs.MATERIALS).setMaxStackSize(32);
+			tutorialBrick = new ItemBasic("tutorial_brick").setCreativeTab(CreativeTabs.MATERIALS).setMaxStackSize(100);
 	}
 	
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> event) {
 		event.getRegistry().registerAll(tutorialItem);
+		event.getRegistry().registerAll(tutorialBrick);
 	}
 	
 	@SubscribeEvent
 	public static void registerRenders(ModelRegistryEvent event) {
 		registerRender(tutorialItem);
+		registerRender(tutorialBrick);
 	}
 	
 	private static void registerRender(Item item) {

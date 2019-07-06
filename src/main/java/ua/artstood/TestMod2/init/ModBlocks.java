@@ -13,7 +13,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import ua.artstood.TestMod2.Reference;
 import ua.artstood.TestMod2.blocks.BlockBasic;
-import ua.artstood.TestMod2.items.ItemBasic;
 
 @Mod.EventBusSubscriber(modid=Reference.MODID)
 public class ModBlocks {
