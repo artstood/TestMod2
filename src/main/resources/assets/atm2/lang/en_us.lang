@@ -1,3 +1,4 @@
 item.tutorial_item.name=Tutorial Item
 tile.tutorial_block.name=Tutorial Block
 item.tutorial_brick.name=Tutorial Brick
+tile.tutorial_ore.name=Tutorial Stone

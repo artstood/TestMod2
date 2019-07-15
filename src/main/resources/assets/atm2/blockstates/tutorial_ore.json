@@ -1,0 +1,7 @@
+{
+	"variants":{
+		"normal":[
+			{"model":"atm2:tutorial_ore"}
+		]
+	}
+}
