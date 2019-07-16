@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import ua.artstood.TestMod2.init.ModBlocks;
 import ua.artstood.TestMod2.init.ModItems;
+import ua.artstood.TestMod2.init.ModRecipes;
 
 @Mod(modid=Reference.MODID, name=Reference.MODNAME, version=Reference.VERSION, acceptedMinecraftVersions=Reference.ACCEPTED_MINECRAFT_VERSIONS)
 public class TestMod {
@@ -24,6 +25,7 @@ public class TestMod {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		System.out.println(Reference.MODID + ":init");
+		ModRecipes.init();
 	}
 	
 	@EventHandler

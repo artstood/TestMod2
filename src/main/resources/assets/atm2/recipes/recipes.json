@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AA",
+		"AA" ],
+	"key":{
+		"A": [
+			{
+			"item": "atm2:tutorial_brick",
+			"data": 0
+			}
+		]
+	},
+	"result":{
+		"item":"atm2:tutorial_block",
+		"data": 0
+	}
+}
