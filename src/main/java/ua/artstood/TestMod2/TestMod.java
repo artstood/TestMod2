@@ -6,6 +6,8 @@ import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import ua.artstood.TestMod2.WorldGen.OreGen;
 import ua.artstood.TestMod2.init.ModBlocks;
 import ua.artstood.TestMod2.init.ModItems;
 import ua.artstood.TestMod2.init.ModRecipes;
@@ -25,6 +27,7 @@ public class TestMod {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		System.out.println(Reference.MODID + ":init");
+		GameRegistry.registerWorldGenerator(new OreGen(), 0);
 		ModRecipes.init();
 	}
 	

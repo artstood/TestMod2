@@ -18,8 +18,8 @@ import ua.artstood.TestMod2.blocks.BlockOre;
 @Mod.EventBusSubscriber(modid=Reference.MODID)
 public class ModBlocks {
 	
-	static Block tutorialBlock;
-	static Block tutorialOre;
+	public static Block tutorialBlock;
+	public static Block tutorialOre;
 	
 	public static void init() {
 		tutorialBlock = new BlockBasic("tutorial_block", Material.ROCK).setCreativeTab(CreativeTabs.BUILDING_BLOCKS).setHardness(2.5f).setLightLevel(0f);
